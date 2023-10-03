@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -26,14 +24,19 @@ input {
   top: 0;
   left: 0;
 }
-.forgot-password-text{
+
+.forgot-password-text {
   cursor: pointer;
+  color: blue;
+  font-weight: bold;
 
 }
+
 .forgot-password-text :hover {
   color: #4481eb;
   font-size: 30px;
 }
+
 .signin-signup {
   position: absolute;
   top: 50%;
@@ -126,7 +129,6 @@ form.sign-in-form {
   justify-content: center;
   align-items: center;
   margin: 0 0.45rem;
-  color: #333;
   border-radius: 50%;
   border: 1px solid #333;
   text-decoration: none;
@@ -134,8 +136,37 @@ form.sign-in-form {
   transition: 0.3s;
 }
 
+.social-icon-linkedin {
+  height: 46px;
+  width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.45rem;
+  color: blue;
+  border-radius: 50%;
+  border: 1px solid blue;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.social-icon-facebook {
+  height: 46px;
+  width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.45rem;
+  color: blue;
+  border-radius: 50%;
+  border: 1px solid blue;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
 .social-icon:hover {
-  color: #4481eb;
   border-color: #4481eb;
 }
 
@@ -157,6 +188,7 @@ form.sign-in-form {
 .btn:hover {
   background-color: #4d84e2;
 }
+
 .panels-container {
   position: absolute;
   height: 100%;
@@ -282,6 +314,7 @@ form.sign-in-form {
     min-height: 800px;
     height: 100vh;
   }
+
   .signin-signup {
     width: 100%;
     top: 95%;
@@ -388,9 +421,11 @@ form.sign-in-form {
   .image {
     display: none;
   }
+
   .panel .content {
     padding: 0.5rem 1rem;
   }
+
   .container {
     padding: 1.5rem;
   }
