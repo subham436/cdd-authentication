@@ -1,7 +1,8 @@
 import React from 'react';
 
 
-import {FaFacebookF, FaGithub, FaLinkedinIn,FaGoogle} from "react-icons/fa";
+import {FaFacebookF, FaGithub, FaLinkedinIn} from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
 
 const SignUp = ({ toggleMode }) => {
   return (
@@ -26,15 +27,15 @@ const SignUp = ({ toggleMode }) => {
       <div className="social-media">
         
         <a href="/" className="social-icon">
-          <FaGoogle/>
+          <FcGoogle/>
         </a>
-        <a href="/" className="social-icon">
+        <a href="/" className="social-icon-linkedin">
           <FaLinkedinIn/>
         </a>
         <a href="/" className="social-icon">
           <FaGithub/>
         </a>
-        <a href="/" className="social-icon">
+        <a href="/" className="social-icon-facebook">
           <FaFacebookF/>
         </a>
         
