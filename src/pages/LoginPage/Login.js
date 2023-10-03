@@ -1,14 +1,15 @@
 
 
-import React, { useState } from 'react';
-import { FaFacebookF, FaGithub, FaLinkedinIn, FaGoogle } from 'react-icons/fa';
+import React from 'react';
+import { FaFacebookF, FaGithub, FaLinkedinIn,  } from 'react-icons/fa';
+import { FcGoogle } from "react-icons/fc";
 
 const SignIn = ({ toggleMode, toggleForgotPassword }) => {
-  const [email, setEmail] = useState('');
+  // const [email, setEmail] = useState('');
 
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
+  // const handleEmailChange = (e) => {
+  //   setEmail(e.target.value);
+  // };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -35,15 +36,15 @@ const SignIn = ({ toggleMode, toggleForgotPassword }) => {
       <p className="social-text">Or</p>
       <div className="social-media">
         <a href="/" className="social-icon">
-          <FaGoogle />
+          <FcGoogle />
         </a>
-        <a href="/" className="social-icon">
+        <a href="/" className="social-icon-linkedin">
           <FaLinkedinIn />
         </a>
         <a href="/" className="social-icon">
           <FaGithub />
         </a>
-        <a href="/" className="social-icon">
+        <a href="/" className="social-icon-facebook">
           <FaFacebookF />
         </a>
       </div>
