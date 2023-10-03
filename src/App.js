@@ -2,9 +2,9 @@
 
 import React, { useState } from 'react';
 import './App.css';
-import SignIn from './Authentication/Login';
-import SignUp from './Authentication/Signup';
-import ForgotPassword from './Authentication/ForgotPassword';
+import SignIn from './pages/LoginPage/Login';
+import SignUp from './pages/SignupPage/Signup';
+import ForgotPassword from './pages/ForgetPassPage/ForgotPassword';
 
 function App() {
   const [isSignUpMode, setIsSignUpMode] = useState(false);
